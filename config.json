@@ -171,7 +171,7 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Desain Website",
+        "title":"Info Lainnya",
         "provider":"webview",
         "arguments":[
           "https://andikafm.web.app/"
