@@ -1,0 +1,184 @@
+[
+
+  {
+    "title":"Live Streaming",
+    "drawable":"ic_lipe",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Radio 3FM",
+        "provider":"radio",
+        "arguments":[
+          "http://stream2.andikafm.com:1057/andikafm"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title":"WhatsApp",
+    "drawable":"ic_wa",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WhatsApp",
+        "provider":"webview",
+        "arguments":[
+          "https://api.whatsapp.com/send/?phone=628113454000&text&type=phone_number&app_absent=0"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title":"Home",
+    "drawable":"",
+    "submenu":"PORTAL BERITA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Terbaru",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id"
+        ]
+      },
+      {
+        "title":"Info Andika",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id",
+          "info-andika"
+        ]
+      },
+      {
+        "title":"Lintas Jawa Timur",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id",
+          "lintas-jawa-timur"
+        ]
+      },
+      {
+        "title":"Lintas Media",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id",
+          "lintas-media"
+        ]
+      }
+
+    ]
+  },
+
+  {
+    "title":"Info Andika",
+    "drawable":"",
+    "submenu":"PORTAL BERITA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Info Andika",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id",
+          "info-andika"
+        ]
+      }
+
+    ]
+  },
+  {
+    "title":"Lintas Jawa Timur",
+    "drawable":"",
+    "submenu":"PORTAL BERITA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Lintas Jawa Timur",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id",
+          "lintas-jawa-timur"
+        ]
+      }
+
+    ]
+  },
+  {
+    "title":"Lintas Media",
+    "drawable":"",
+    "submenu":"PORTAL BERITA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Lintas Media",
+        "provider":"wordpress",
+        "arguments":[
+          "andikafm.biz.id",
+          "lintas-media"
+        ]
+      }
+
+    ]
+  },
+
+
+
+
+
+  {
+    "title":"Channel",
+    "drawable":"",
+    "submenu":"YouTube",
+    "iap":false,
+    "tabs":[
+
+      {
+        "title":"ANDIKA TV KEDIRI",
+        "provider":"youtube",
+        "arguments":[
+          "UCayGlpv7x-nc-xGVrV5PIKQ",
+          "channel",
+          "AIzaSyDc7kR6qzvwtXaFnsnn0U9IcusUtOomE_I"
+        ]
+      },
+      {
+        "title":"LIVE",
+        "provider":"youtube",
+        "arguments":[
+          "UCayGlpv7x-nc-xGVrV5PIKQ",
+          "live",
+          "AIzaSyDc7kR6qzvwtXaFnsnn0U9IcusUtOomE_I"
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "title":"Global Info",
+    "drawable":"",
+    "submenu":"INFO LAINNYA",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Desain Website",
+        "provider":"webview",
+        "arguments":[
+          "https://andikafm.web.app/"
+        ]
+      }
+    ]
+  }
+
+
+]
